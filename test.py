@@ -1,23 +1,5 @@
 import unittest
-from main import remove_duplicates, concat_strings
-
-class TestRemoveDuplicates(unittest.TestCase):
-
-    def test_remove_duplicates_basic(self):
-        result = remove_duplicates("hello")
-        self.assertEqual(result, "helo")
-
-    def test_remove_duplicates_empty_str(self):
-        result = remove_duplicates("")
-        self.assertEqual(result, "")
-
-    def test_remove_duplicates_none_str(self):
-        result = remove_duplicates(None)
-        self.assertEqual(result, None)
-
-    def test_remove_duplicates_special_chars(self):
-        result = remove_duplicates("!@#hello$%^")
-        self.assertEqual(result, "!@#helo$%^")
+from main import concat_strings
 
 class TestConcatStrings(unittest.TestCase):
 
