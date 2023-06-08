@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
-    - name: Set up pyTest
+    - name: Set up 
       uses: actions/setup-python@v2
       with:
         python-version: 3.x
@@ -19,6 +19,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
 
-    - name: Run pyTests
+    - name: Run unittest
       run: |
         python -m unittest test.py
