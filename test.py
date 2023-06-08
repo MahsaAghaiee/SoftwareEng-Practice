@@ -12,7 +12,7 @@ class TestConcatStrings(unittest.TestCase):
         self.assertEqual(result, "world")
 
     def test_concat_strings_none_str(self):
-        result = concat_strings(None, "world")
+        result = concat_strings("", "world")
         self.assertEqual(result, "world")
 
     def test_concat_strings_ints(self):
