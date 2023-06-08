@@ -1,5 +1,5 @@
 import unittest
-from my_module import remove_duplicates, concat_strings
+from main import remove_duplicates, concat_strings
 
 class TestRemoveDuplicates(unittest.TestCase):
 
