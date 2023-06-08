@@ -28,4 +28,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_PASSWORD }}/softwareEng:latest
+          tags: ${{ secrets.DOCKER_PASSWORD }}/softwareeng:latest
