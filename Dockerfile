@@ -8,4 +8,4 @@ EXPOSE 80
 
 ENV NAME World
 
-CMD ["python", "SoftwareEng-Practice"]
+CMD ["python", "main.py"]
